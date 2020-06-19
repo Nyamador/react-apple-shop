@@ -15,7 +15,7 @@ const ProductDescription = styled.section`
 	height: 50vh;
 	border-top-left-radius: 60px;
 	border-top-right-radius: 60px;
-    padding: 40px;
+    padding: 20px;
     margin-top: 10px;
 `;
 
@@ -37,11 +37,11 @@ const ProductPage = () => {
 			<ImageContainer>
                 {
                    slug === 'apple-watch' 
-                   ? <img src={watch} title='Apple Watch' alt="Apple Watch" height="300"/>
+                   ? <img src={watch} style={{height:'auto', width: '90vw'}}title='Apple Watch' alt="Apple Watch" height="300"/>
                    : (
                        slug === 'iphone' 
-                       ?<img src={iphone} title='iphone' alt="Iphone" height="300"/> 
-                       : <img src={airpods} title='Airpods' alt="Airpods" height="300"/> 
+                       ?<img src={iphone} style={{height:'auto', width: '90vw'}}title='iphone' alt="Iphone" height="300"/> 
+                       : <img src={airpods} style={{height:'auto', width: '90vw'}}title='Airpods' alt="Airpods" height="300"/> 
                    )
                 }
 
