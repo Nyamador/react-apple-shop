@@ -1,6 +1,9 @@
 ## Apple Store
 
-An E-commerce Website built with React.
+A demo E-commerce Website built with React with minimal features
+
+1. Routing 
+2. Path conversion 
 
 ### `yarn start`
 
